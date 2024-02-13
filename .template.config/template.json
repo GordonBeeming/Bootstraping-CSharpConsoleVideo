@@ -36,14 +36,5 @@
       ]
     }
   ],  
-  "type": "project",
-  "sourceName": "CSharpVideo",
-  "symbols": {
-    "name": {
-      "type": "parameter",
-      "dataType": "string",
-      "defaultValue": "CSharpVideo",
-      "replaces": "CSharpVideo"
-    }
-  }
+  "sourceName": "CSharpVideo"
 }
