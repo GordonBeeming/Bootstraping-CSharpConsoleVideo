@@ -36,6 +36,7 @@
       ]
     }
   ],  
+  "type": "project",
   "sourceName": "CSharpVideo",
   "symbols": {
     "name": {
