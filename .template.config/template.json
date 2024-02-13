@@ -16,7 +16,7 @@
     "language": "C#",
     "type": "project"
   },
-  "preferNameDirectory": false,
+  "preferNameDirectory": true,
   "sources": [
     {
       "source": "./",
