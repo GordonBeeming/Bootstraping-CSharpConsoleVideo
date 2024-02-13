@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json.schemastore.org/template.json",
+  "author": "Gordon-Beeming",
+  "classifications": [
+    ".NET",
+    "CSharp",
+    "Console",
+    "Benchmark"
+  ],
+  "name": "Console app files to bootstrap a C# video",
+  "description":  "A couple of files that I generally create each video I make, starting from a console app (for C# projects)",
+  "identity": "GordonBeeming.Bootstraping.CSharpConsoleVideo",
+  "groupIdentity": "GordonBeeming.Bootstraping",
+  "shortName": "gb-bootstraping-csharp-console-video",
+  "tags": {
+    "language": "C#",
+    "type": "item"
+  },
+  "preferNameDirectory": false,
+  "sources": [
+    {
+      "source": "./",
+      "target": "./",
+      "exclude": [
+        "README.md",
+        "**/[Bb]in/**",
+        "**/[Oo]bj/**",
+        ".template.config/**/*",
+        ".vs/**/*",
+        "**/*.filelist",
+        "**/*.user",
+        "**/*.lock.json",
+        "**/.git/**",
+        "*.nuspec",
+        "**/node_modules/**"
+      ]
+    }
+  ]
+}
