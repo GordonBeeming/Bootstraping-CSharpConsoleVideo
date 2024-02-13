@@ -14,7 +14,7 @@
   "shortName": "gb-bootstraping-csharp-console-video",
   "tags": {
     "language": "C#",
-    "type": "item"
+    "type": "project"
   },
   "preferNameDirectory": false,
   "sources": [

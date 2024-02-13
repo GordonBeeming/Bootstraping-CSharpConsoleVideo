@@ -17,9 +17,9 @@ dotnet new install GordonBeeming.Bootstraping.CSharpConsoleVideo
 You'll see an update similar to this 
 
 ```bash
-Template Name               Short Name                            Language  Tags
---------------------------  ------------------------------------  --------  -----------------------------
-C# Console App Video Files  gb-bootstraping-csharp-console-video  [C#]      .NET/CSharp/Console/Benchmark
+Template Name                              Short Name                            Language  Tags
+-----------------------------------------  ------------------------------------  --------  -----------------------------
+Console app files to bootstrap a C# video  gb-bootstraping-csharp-console-video  [C#]      .NET/CSharp/Console/Benchmark
 ```
 
 ## Using the template
