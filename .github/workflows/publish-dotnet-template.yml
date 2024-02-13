@@ -20,7 +20,7 @@ jobs:
         run: echo "::set-output name=version::$(date +'%Y.%m.%d').$GITHUB_RUN_NUMBER"
 
       - name: Create package
-        run: nuget pack CSharp-Bootstraping.nuspec -NoDefaultExcludes -version ${{ steps.version.outputs.version }}
+        run: nuget pack Bootstraping.CSharpConsoleVideo.nuspec -NoDefaultExcludes -version ${{ steps.version.outputs.version }}
         
       - name: Publish package
         run: nuget push *.nupkg -Source 'https://api.nuget.org/v3/index.json' -ApiKey ${{secrets.NUGET_API_KEY}} 
