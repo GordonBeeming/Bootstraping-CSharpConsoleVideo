@@ -8,7 +8,7 @@
     "Benchmark"
   ],
   "name": "Console app files to bootstrap a C# video",
-  "description":  "A couple of files that I generally create each video I make, starting from a console app (for C# projects)",
+  "description": "A couple of files that I generally create each video I make, starting from a console app (for C# projects)",
   "identity": "GordonBeeming.Bootstraping.CSharpConsoleVideo",
   "groupIdentity": "GordonBeeming.Bootstraping",
   "shortName": "gb-bootstraping-csharp-console-video",
@@ -35,5 +35,14 @@
         "**/node_modules/**"
       ]
     }
-  ]
+  ],  
+  "sourceName": "CSharpVideo",
+  "symbols": {
+    "name": {
+      "type": "parameter",
+      "dataType": "string",
+      "defaultValue": "CSharpVideo",
+      "replaces": "CSharpVideo"
+    }
+  }
 }
